@@ -1,0 +1,2 @@
+export function placePhotoStyle(p:any){const percentage=(v:any)=>{if(v==null||String(v).trim()==='')return 50;const n=Number(v);return Number.isFinite(n)?Math.max(0,Math.min(100,n)):50;};return {objectFit:p.photoFit==='contain'?'contain' as const:'cover' as const,objectPosition:`${percentage(p.photoX)}% ${percentage(p.photoY)}%`};}
+export function placePhotoUrl(value:any){if(typeof value!=='string')return '';try{const url=new URL(value);return ['http:','https:'].includes(url.protocol)?value:''}catch{return ''}}

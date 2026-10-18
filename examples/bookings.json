@@ -1,0 +1,28 @@
+[
+  {
+    "name": "範例航班（虛構）",
+    "type": "機票",
+    "flight": "XX123",
+    "from": "TPE",
+    "to": "KIX",
+    "depart": "2027-04-01T09:00",
+    "arrive": "2027-04-01T12:30",
+    "timezoneFrom": "Asia/Taipei",
+    "timezoneTo": "Asia/Tokyo",
+    "bookingNumber": "",
+    "ticketNumber": "",
+    "shared": false,
+    "syncItinerary": true
+  },
+  {
+    "name": "範例住宿（虛構）",
+    "type": "住宿",
+    "date": "2027-04-01",
+    "endDate": "2027-04-03",
+    "address": "",
+    "checkInTime": "15:00",
+    "checkOutTime": "11:00",
+    "bookingNumber": "",
+    "note": "示範用途，非真實預訂。"
+  }
+]

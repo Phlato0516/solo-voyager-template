@@ -1,0 +1,18 @@
+[
+  {
+    "name": "範例公園（虛構）",
+    "localName": "Sample Park",
+    "type": "景點",
+    "country": "日本",
+    "city": "大阪",
+    "district": "範例區",
+    "address": "",
+    "map": "",
+    "photo": "",
+    "photoFit": "cover",
+    "photoX": "50",
+    "photoY": "50",
+    "hours": "",
+    "note": "示範用途，非真實旅遊資訊。"
+  }
+]

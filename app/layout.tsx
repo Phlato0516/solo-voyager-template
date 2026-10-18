@@ -1,0 +1,1 @@
+import type { Metadata } from 'next';import './globals.css';export const metadata:Metadata={title:'Solo Voyager｜旅行手帳',description:'收藏喜歡的地方，安排下一段旅程。'};export default function Layout({children}:{children:React.ReactNode}){return <html lang="zh-Hant"><body>{children}</body></html>}

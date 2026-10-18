@@ -1,0 +1,1 @@
+import { requireChatGPTUser } from './chatgpt-auth';import Travel from './travel';export const dynamic='force-dynamic';export default async function Page(){const user=await requireChatGPTUser('/');return <Travel user={user}/>;}
